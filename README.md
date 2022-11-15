@@ -1,6 +1,6 @@
 ## SafuuX - GoEth
 
-Safuux Testnet implementation, from GoEthereum (GETH) / golang-ethereum
+Safuux Testnet implementation, using GoEthereum (GETH) / golang-ethereum
 
 [![API Reference](
 https://camo.githubusercontent.com/915b7be44ada53c290eb157634330494ebe3e30a/68747470733a2f2f676f646f632e6f72672f6769746875622e636f6d2f676f6c616e672f6764646f3f7374617475732e737667
@@ -28,7 +28,6 @@ or, to build the full suite of utilities:
 ```shell
 make all
 ```
-                                                                                                                                            |
 
 ## Running `geth`
 
@@ -61,7 +60,7 @@ particular use-case the user doesn't care about years-old historical data, so we
 sync quickly to the current state of the network. 
 
 
-### Running a full node without being a validator
+### Running a full node without being a validator [under development]
 
 
 `./geth --datadir ./node init safuux_mainnet.json`
